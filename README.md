@@ -1,10 +1,10 @@
-![ ](<resources/img/smaller recs.png>)       ![alt text](<resources/img/Recs. (3).jpg>)
+![ ](<resources/img/readme/smaller recs.png>)       ![alt text](<resources/img/readme/Recs. (3).jpg>)
 
 # Recs. Book Recommendations
  
  Book recommendations site that enables all users to view and search book recommendations by title and author. The site also features a login-accessible CRUD where users with admin permissions can add new book recommendations as well as editing and deleting existing entries. 
 
-![Recs. book recommendations app main page](<resources/img/main image.jpg>)
+![Recs. book recommendations app main page](<resources/img/readme/main image.jpg>)
 
 ## Table of Contents
 
@@ -47,7 +47,25 @@ You will need to develop a PHP web application connected to a MySQL database. Yo
 
 ### Demo Videos and Images
 
-XXXX XXXX XXXX
+Desktop demo video:
+
+![desktop app CRUD functions](<resources/img/readme/desktop video.gif>)
+
+Mobile demo video:
+
+![mobile app search and view functions](resources/img/readme/mobile.gif)
+
+Screenshot showing admin panel:
+
+![desktop admin panel](resources/img/readme/admin.jpg)
+
+Screenshot showing edit notification modal:
+
+![edit confirmation modal](resources/img/readme/edit.png)
+
+Screenshot showing delete confirmation modal:
+
+![delete confirmation modal](resources/img/readme/delete.png)
 
 ### Link 
 
