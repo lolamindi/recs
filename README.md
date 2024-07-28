@@ -77,17 +77,20 @@ Screenshot showing delete confirmation modal:
 This project includes unit testing in PHPUnit to ensure the reliability and functionality of the BooksController class, which interacts with the booksModel class. The tests focus on checking that various functions exist and work correctly. All tests passed. Here is an overview of the tests and their purposes:
 
 #### Method Existence Tests:
-- *testThatThereIsAGetBooksFunction()* ---> Verifies that the getBooks method exists in the BooksController class
+The following tests check for the existence of necessary functions to retrieve all the books from the database, as well as search, add, edit, and delete functions:
 
-- *testThatThereIsASearchBooksFunction()* ---> Ensures the searchBooks method is present
+- *testThatThereIsAGetBooksFunction()* 
 
-- *testThatThereIsADeleteBookFunction()* ---> Checks for the existence of the deleteBook method
+- *testThatThereIsASearchBooksFunction()* 
 
-- *testThatThereIsAnAddBookFunction()* ---> Confirms the presence of the addBook method
+- *testThatThereIsADeleteBookFunction()* 
 
-- *testThatThereIsAnEditBookFunction()* ---> Validates the existence of the editBook method
+- *testThatThereIsAnAddBookFunction()* 
+
+- *testThatThereIsAnEditBookFunction()* 
 
 #### Functionality Tests:
+The following tests use mocking to isolate the specific functionality being tested and confirm that the methods are called with the expected parameters and produce the correct results:
 
 - *testSearchBooksFunctionality()*
   - Mocks the searchBooks method of booksModel to check that it returns the correct results for a given keyword
@@ -106,14 +109,12 @@ This project includes unit testing in PHPUnit to ensure the reliability and func
   - Confirms that the method deletes the book as expected
 
 
-
 #### To run the tests, use this command in the terminal:
 
 ```
 phpunit --bootstrap vendor/autoload.php tests/BooksControllerTest.php
 
 ```
-
 
 ### Installation 
 
@@ -164,16 +165,15 @@ The following technologies and versions were used in this project:
 
 ### Project Updates 
 
-When originally submitted in February 2024, this project was tailored to our class requirements for a desktop-only library book app in Spanish that prioritised backend functioning.  
+When originally submitted in February 2024, this project, called [bookworms](https://github.com/tephyxp/bookworms), was tailored to our class requirements for a desktop-only library book app in Spanish that prioritised backend functioning.  
 
 Project updates, completed between June and August 2024, include:
 
 - New app name, logo, layout, and colour scheme
-- Tailwind CSS for styling instead of Bootstrap 
+- Tailwind CSS instead of Bootstrap for all styling, modals, and other features 
 - Responsive main page and book details page
-- Comprehensive README in English
 - More extensive range of unit tests 
-- Full translation to English of the code and web content
+- All code, content, and documentation in English
 - Curated collection of original book reviews
  
 
