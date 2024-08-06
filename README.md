@@ -157,7 +157,7 @@ The following technologies and versions were used in this project:
 - Object-oriented programming
 - Password-protected admin page with login
 - CRUD capabilities 
-- Pagination
+- Pagination to divide the main content 
 - Search feature by book title or author
 - Confirmation and notification modals
 - Responsive design for non-admin pages 
@@ -172,7 +172,7 @@ Project updates, completed between June and August 2024, include:
 - New app name, logo, layout, and colour scheme
 - Tailwind CSS instead of Bootstrap for all styling, modals, and other features 
 - Responsive main page and book details page
-- More extensive range of unit tests 
+- More extensive range of unit tests, including mock tests to check CRUD functionality
 - All code, content, and documentation in English
 - Curated collection of original book reviews
  
