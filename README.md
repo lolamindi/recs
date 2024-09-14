@@ -2,7 +2,7 @@
 
 # Recs. Book Recommendations
  
- Book recommendations site that enables all users to view and search book recommendations by title and author. The site also features a login-accessible CRUD where users with admin permissions can add new book recommendations as well as editing and deleting existing entries. 
+Book recommendations site that enables all users to view and search book recommendations by title and author. The site also features a login-accessible CRUD where users with admin permissions can add new book recommendations as well as editing and deleting existing entries. 
 
 ![Recs. book recommendations app main page](<resources/img/readme/main image.jpg>)
 
@@ -25,7 +25,7 @@
 
 ### Requirements
 
-The original course requirements called for the development of a PHP web application connected to a MySQL database. The project specifics also called for a well-organised file structure, a monolithic MVC architecture design, and for it to be developed with object-oriented programming (OOP). 
+The original course requirements specified the development of a PHP web application connected to a MySQL database. The project also called for a well-organised file structure, a monolithic MVC architecture design, and for it to be developed with object-oriented programming (OOP). 
 
 #### Functional Requirements:
 - The application MUST display all the books in the database to be viewed by all users
