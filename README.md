@@ -25,7 +25,7 @@
 
 ### Requirements
 
-You will need to develop a PHP web application connected to a MySQL database. Your project should have a well-organised file structure, be designed with a monolithic MVC architecture, and developed with object-oriented programming (OOP). 
+The original course requirements called for the development of a PHP web application connected to a MySQL database. The project specifics also called for a well-organised file structure, a monolithic MVC architecture design, and for it to be developed with object-oriented programming (OOP). 
 
 #### Functional Requirements:
 - The application MUST display all the books in the database to be viewed by all users
@@ -156,7 +156,7 @@ The following technologies and versions were used in this project:
 - MVC architecture 
 - Object-oriented programming
 - Password-protected admin page with login
-- CRUD capabilities 
+- CRUD (create, read, update, delete) capabilities 
 - Pagination to divide the main content 
 - Search feature by book title or author
 - Confirmation and notification modals
